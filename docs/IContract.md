@@ -3,19 +3,19 @@
 Интерфейс предназначен для работы с методами класса [Contract](Contract.md)
 
 ### Функции IContract:
-+ +Add (Contract:Contract): string
++ +Add (Contract:[Contract](Contract.md)): string
   + Добавление в БД
   + Contract:[Contract](Contract.md) – экземпляр класса [Contract](Contract.md).
   + String – строка с ответом.
-+ +Del (Contract:Contract): string
++ +Del (Contract:[Contract](Contract.md)): string
   + Удаление из БД
   + Contract:[Contract](Contract.md) – экземпляр класса [Contract](Contract.md).
   + String – строка с ответом
-+ +Edit (Contract:Contract): string
++ +Edit (Contract:[Contract](Contract.md)): string
   + Редактирование в БД
   + Contract:[Contract](Contract.md) – экземпляр класса [Contract](Contract.md).
   + String – строка с ответом
-+ +GetID (Contract:Contract): int
++ +GetID (Contract:[Contract](Contract.md)): int
   + Получение ID
   + Contract:[Contract](Contract.md) – экземпляр класса [Contract](Contract.md).
   + int – искомый id
