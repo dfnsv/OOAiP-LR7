@@ -1,0 +1,35 @@
+## Описание интерфейса IClient
+
+Интерфейс предназначен для работы с методами класса [Client](Client.md)
+
+### Реализация интерфейса
+
++ Add (Route:Route): string – добавление в БД
+Входные данные:
+Route:Route – экземпляр класса Route.
+Выходные данные:
+String – строка с ответом
++ Del (Route:Route): string – удаление из БД
+Входные данные:
+Route:Route – экземпляр класса Route.
+Выходные данные:
+String – строка с ответом
++ Edit (Route:Route): string – Редактирование в БД
+Входные данные:
+Route:Route – экземпляр класса Route.
+Выходные данные:
+String – строка с ответом
++ GetID (Route:Route): int – Получение ID
+Входные данные:
+Route:Route – экземпляр класса Route.
+Выходные данные:
+int – искомый id
++ GetList (sorting : String, ASKorDESK : String, filterA : T, filterB : A, count : int, page : int): List <Route> – функция с входными параметрами «sorting»(сортировка), «ASKofDESK»(по возрастанию или по убыванию), «filterA», «filterB»(фильтр), «count»(количество), «page»(страница). Второй фильтр (filter B) необходим для интервала количественных атрибутов. Функция возвращает список объектов класса.
++ FindByID (ID : Integer): Route – поиск экземпляра класса по ID. ID – идентификатор. Возвращает экземпляр класса.
++ GetRoutes(sorting : String, ASKorDESK : String, filterA : Route, filterB : Route, count : int, page : int) : List <Routes> - функция с входными параметрами «sorting»(сортировка), «ASKofDESK»(по возрастанию или по убыванию), «filterA», «filterB»(фильтр), «count»(количество), «page»(страница). Второй фильтр (filter B) необходим для интервала количественных атрибутов. Функция возвращает список маршруты.
++ GetVoyage (TimeBeg, TimeEnd): List <Voyage> -  получить список рейсов для объекта
+TimeBeg – дата начала поиска.
+TimeEnd – дата окончания поиска.
++ GetTransport (TimeBeg, TimeEnd): List <Transport> - получить список ТС для объекта
+TimeBeg – дата начала поиска.
+TimeEnd – дата окончания поиска.
