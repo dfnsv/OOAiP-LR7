@@ -1,10 +1,10 @@
 # Транспортная компания
 
 ## Схема интерфейсов
- ![Диаграмма](docs/diagrams/int.png)
+ ![Диаграмма](docs/diagrams/inter.png)
  
 ### ***Список интерфейсов***
-- [ISchedule](docs/ISchedule.md) 
+- [IBranch](docs/IBranch.md) 
 
 
 - [IEmployee](docs/IEmployee.md) 
@@ -13,13 +13,20 @@
 - [IClient](docs/IClient.md)
 
 
-- [IService](docs/IService.md)
+- [IContract](docs/IContract.md)
 
 
-- [IRequest](docs/IRequest.md)
+- [IVoyage](docs/IVoyage.md)
 
 
-- [ITypeService](docs/ITypeService.md)
+- [IRoute](docs/IRoute.md)
+
+
+- [IPoint](docs/IPoint.md)
+
+
+- [ITransport](docs/ITransport.md)
+
  
 ## Диаграммы
 
