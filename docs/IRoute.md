@@ -28,15 +28,3 @@
   + поиск экземпляра класса по ID.
   + ID – идентификатор. 
   + Возвращает экземпляр класса.
-+ +GetRoutes(sorting : String, ASKorDESK : String, filterA : [Route](Route.md), filterB : [Route](Route.md), count : int, page : int) : List <[Route](Route.md)>
-  + функция с входными параметрами «sorting»(сортировка), «ASKofDESK»(по возрастанию или по убыванию), «filterA», «filterB»(фильтр), «count»(количество), «page»(страница).
-  + Второй фильтр (filter B) необходим для интервала количественных атрибутов.
-  + Функция возвращает список маршруты.
-+ +GetVoyage (TimeBeg, TimeEnd): List <[Voyage](Voyage.md)>
-  + получить список рейсов для объекта
-  + TimeBeg – дата начала поиска.
-  + TimeEnd – дата окончания поиска.
-+ +GetTransport (TimeBeg, TimeEnd): List <[Transport](Transport.md)>
-  + получить список ТС для объекта
-  + TimeBeg – дата начала поиска.
-  + TimeEnd – дата окончания поиска.
