@@ -27,24 +27,4 @@
 + +FindByID (ID : Integer): [Branch](Branch.md)
   + поиск экземпляра класса по ID.
   + ID – идентификатор.
-  + Возвращает экземпляр класса.
-+ +GetBranches (sorting : String, ASKorDESK : String, filterA : [Branch](Branch.md), filterB : [Branch](Branch.md), count : int, page : int) : List <[Branch](Branch.md)>
-  + функция с входными параметрами «sorting»(сортировка), «ASKofDESK»(по возрастанию или по убыванию), «filterA», «filterB»(фильтр), «count»(количество), «page»(страница).
-  + Второй фильтр (filter B) необходим для интервала количественных атрибутов.
-  + Функция возвращает список филиалов.
-+ +GetEmployee (TimeBeg, TimeEnd): List <[Employee](Employee.md)>
-  + получить список сотрудников для объекта
-  + TimeBeg – дата начала поиска.
-  + TimeEnd – дата окончания поиска
-+ +GetContract (TimeBeg, TimeEnd): List <[Contract](Contract.md)>
-  + получить список договоров для объекта
-  + TimeBeg – дата начала поиска.
-  + TimeEnd – дата окончания поиска
-+ +GetClient (TimeBeg, TimeEnd): List <[Client](Client.md)>
-  + получить список клиентов для объекта
-  + TimeBeg – дата начала поиска.
-  + TimeEnd – дата окончания поиска
-+ +GetTransport (TimeBeg, TimeEnd): List <[Transport](Transport.md)>
-  + получить список ТС для объекта
-  + TimeBeg – дата начала поиска.
-  + TimeEnd – дата окончания поиска
+  + Возвращает экземпляр класса
