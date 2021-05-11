@@ -28,15 +28,3 @@
   + поиск экземпляра класса по ID.
   + ID – идентификатор.
   + Возвращает экземпляр класса.
-+ +GetClients(sorting : String, ASKorDESK : String, filterA : [Client](Client.md), filterB : [Client](Client.md), count : int, page : int) : List <[Client](Client.md)>
-  + функция с входными параметрами «sorting»(сортировка), «ASKofDESK»(по возрастанию или по убыванию), «filterA», «filterB»(фильтр), «count»(количество), «page»(страница).
-  + Второй фильтр (filter B) необходим для интервала количественных атрибутов.
-  + Функция возвращает список клиентов.
-+ +GetEmployee (TimeBeg, TimeEnd): List <[Employee](Employee.md)>
-  + получить список сотрудников для объекта
-  + TimeBeg – дата начала поиска.
-  + TimeEnd – дата окончания поиска
-+ +GetBranch (TimeBeg, TimeEnd): List <[Branch](Branch.md)>
-  + получить список филиалов для объекта
-  + TimeBeg – дата начала поиска.
-  + TimeEnd – дата окончания поиска
