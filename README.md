@@ -1,7 +1,7 @@
 # Транспортная компания
 
 ## Схема интерфейсов
- ![Диаграмма](docs/diagrams/inter.png)
+ ![Диаграмма](docs/diagrams/123.png)
  
 ### ***Список интерфейсов***
 - [IBranch](docs/IBranch.md) 
