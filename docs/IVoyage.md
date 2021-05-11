@@ -28,11 +28,3 @@
   + поиск экземпляра класса по ID.
   + ID – идентификатор.
   + Возвращает экземпляр класса.
-+ +GetVoyages(sorting : String, ASKorDESK : String, filterA : [Voyage](Voyage.md), filterB : [Voyage](Voyage.md), count : int, page : int) : List <[Voyage](Voyage.md)>
-  + функция с входными параметрами «sorting»(сортировка), «ASKofDESK»(по возрастанию или по убыванию), «filterA», «filterB»(фильтр), «count»(количество), «page»(страница).
-  + Второй фильтр (filter B) необходим для интервала количественных атрибутов.
-  + Функция возвращает список рейсы.
-+ +GetContract (TimeBeg, TimeEnd): List <[Contract](Contract.md)>
-  + получить список договоров для объекта
-  + TimeBeg – дата начала поиска.
-  + TimeEnd – дата окончания поиска
